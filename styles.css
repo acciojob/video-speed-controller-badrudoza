@@ -45,5 +45,41 @@ input[type="range"] {
   width: 0%;
   height: 100%;
 }
+.wrapper {
+  max-width: 800px;
+  margin: 40px auto;
+  background: #333;
+  color: white;
+  font-family: sans-serif;
+}
 
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.player__button {
+  font-size: 18px;
+  background: #444;
+  border: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.progress {
+  flex: 1;
+  background: #555;
+  height: 8px;
+  position: relative;
+  cursor: pointer;
+}
+
+.progress__filled {
+  background: #ffc600;
+  width: 0%;
+  height: 100%;
+}
 /* Your CSS Code here. */
